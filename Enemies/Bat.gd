@@ -2,8 +2,8 @@ extends CharacterBody2D
 
 var player = null
 @onready var ray = $See
-@export var speed = 1000
-@export var looking_speed = 200
+@export var speed = 800
+@export var looking_speed = 100
 var line_of_sight = false
 var nav_ready = false
 
